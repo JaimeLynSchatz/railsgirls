@@ -33,6 +33,9 @@ gem 'jbuilder', '~> 1.2'
 # Use Foreigner for comments
 gem 'foreigner'
 
+# Use Devise for user authentication
+gem 'devise'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
