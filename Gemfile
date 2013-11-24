@@ -36,6 +36,10 @@ gem 'foreigner'
 # Use Devise for user authentication
 gem 'devise'
 
+# Workaround for Protected Attributes
+# see SO Q#19130184 later
+gem 'protected_attributes'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
