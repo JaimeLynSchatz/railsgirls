@@ -9,7 +9,9 @@ class IdeasController < ApplicationController
 
   # GET /ideas/1
   # GET /ideas/1.json
+  # DEBUG?? Really not sure here
   def show
+    @comment = @idea.comments.build
   end
 
   # GET /ideas/new
